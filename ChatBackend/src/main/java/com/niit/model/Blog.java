@@ -17,7 +17,7 @@ public class Blog {
 	
     int blogId;
 	String blogName;
-	String blogContext;
+	String blogContent;
 	Date createDate;
 	int likes;
 	String loginname;
