@@ -14,20 +14,12 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import com.niit.DAO.BlogDAO;
 import com.niit.DAO.BlogDAOImpl;
-//import com.niit.DAO.ForumDAO;
-//import com.niit.DAO.ForumDAOImpl;
-//import com.niit.DAO.JobDAO;
-//import com.niit.DAO.JobDAOImpl;
-//import com.niit.DAO.UserDAO;
-//import com.niit.DAO.UserDAOImpl;
-//import com.niit.model.ApplyJob;
+import com.niit.DAO.ForumDAO;
+import com.niit.DAO.ForumDAOImpl;
 import com.niit.model.Blog;
 import com.niit.model.BlogComment;
-//import com.niit.model.Forum;
-//import com.niit.model.ForumComment;
-//import com.niit.model.Friends;
-//import com.niit.model.Job;
-//import com.niit.model.UserDetails;
+import com.niit.model.Forum;
+import com.niit.model.ForumComment;
 
 @Configuration
 @EnableTransactionManagement
